@@ -1,5 +1,6 @@
-# Ignore raw data files (large datasets should not go to GitHub)
-data/raw/*
+# Ignore all data files (CSV, Excel, etc.) in data/ folder
+data/*
+!data/.gitkeep   # keep folder structure
 
 # Ignore Python cache & bytecode
 __pycache__/
